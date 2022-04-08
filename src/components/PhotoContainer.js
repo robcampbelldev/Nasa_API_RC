@@ -35,7 +35,7 @@ useEffect(()=>{
     <div className="img-card">
       <Header />
       <div className="img-container">
-        <h1 className="img-title">{nasaData.title || "Photo Title"}</h1>
+        <h1 className="img-title">{nasaData.title || "Photo Title!"}</h1>
         <img
           src={nasaData.url || "./assets/apod.jpg"}
           alt="nasa-APOD"
